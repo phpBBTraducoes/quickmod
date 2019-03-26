@@ -1,12 +1,11 @@
 <?php
 /**
 * main.php [Brazilian Portuguese [pt_br]]
-* Brazilian Portuguese  translation by eunaumtenhoid (c) 2017 [ver 1.1.0] (https://github.com/phpBBTraducoes)
-* @package language cBB QuickMod
-* @version 1.1.0 17/01/2017
-*
-* @copyright (c) 2017 CaniDev
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @package cBB QuickMod
+* @version v1.1.1 22/03/2019
+* Brazilian Portuguese  translation by eunaumtenhoid [2017][ver 1.1.1] (https://github.com/phpBBTraducoes)
+* @copyright (c) 2019 CaniDev
+* @license https://opensource.org/licenses/gpl-license.php GNU Public License
 */
 
 // DO NOT CHANGE
@@ -40,8 +39,8 @@ $lang = array_merge($lang, array(
 	'CONFIRM_UNLOCK_TOPIC'		=> 'Tem certeza de que deseja destrancar o tópico selecionado?',
 	'CONFIRM_UNLOCK_TOPICS'		=> 'Tem certeza de que deseja destrancar os tópicos selecionados?',
 	
-	'DELETE_TOPIC'				=> 'Deletar',
-	'DELETE_PERMANENTLY_TOPIC'	=> 'Deletar permanentemente',
+	'DELETE_TOPIC'				=> 'Excluir',
+	'DELETE_PERMANENTLY_TOPIC'	=> 'Excluir permanentemente',
 	'LOCK_TOPIC'				=> 'Trancar',
 	'MAKE_ANNOUNCE_TOPIC'		=> 'Alterar para Anúncio',
 	'MAKE_GLOBAL_TOPIC'			=> 'Alterar para Global',
@@ -79,5 +78,7 @@ $lang = array_merge($lang, array(
 
 	'AUTHOR_CHANGE_SUCCESS'	=> 'O autor dos tópicos foi alterado corretamente.',
 	'TOPIC_RENAMED_SUCCESS'	=> 'O tópico foi renomeado corretamente.',
-	'ERROR_OPERATION'		=> 'Ocorreu um erro ao enviar sua solicitação ao servidor. A página solicitada não existe ou retornou um erro.',
+	
+	'CORE_INSTALL_ERROR'	=> 'Você não carregou todos os arquivos do pacote de instalação ou está tentando instalar um pacote antigo.<br />
+		Por favor, certifique-se de enviar todos os arquivos (incluindo a pasta <em>core</em>) e use um pacote baixado do site oficial.',
 ));
